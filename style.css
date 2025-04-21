@@ -1,0 +1,87 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+
+  margin-top: 500px;
+  overflow: hidden;
+  background-image: url(./img/images\ prog.jpeg);
+ /* Substitua "sua-imagem.jpg" pelo caminho da sua imagem */
+  background-size: cover; /* Preenche toda a tela, mesmo que precise redimensionar */
+  background-repeat: no-repeat; /* Evita que a imagem seja repetida */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Define a altura para 100% da altura da viewport (tela) */
+  width: 100vw;  /* Define a largura para 100% da largura da viewport (tela) */
+  margin: 0;  /* Remove margens padrão do corpo para garantir que a imagem ocupe toda a tela */
+  padding: 50px;
+  /*max-width: 400px;
+  */
+}
+
+button{
+  background-color: #283c7a;
+  color:aliceblue;
+  height: 30px;
+  font-size: 18px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #283c7a4f;
+}
+
+h1{
+
+  font-size: 50px;
+  color: rgb(241, 241, 200);
+  text-align: center;
+}
+
+input{
+  position: relative;
+  align-self: center;
+  height: 30px;
+  background-color: rgb(250, 248, 141);
+  font-size: 22px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(61, 4, 75);
+}
+
+.central{
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+}
+ul{
+
+  margin: auto;
+  margin-top: 30px;
+  max-width: 70%;
+
+}
+li{
+
+  background:  rgba(248, 245, 77, 0.932);
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 5px;
+  list-style-type: none;
+  color: rgb(61, 4, 75);
+  max-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  font-weight: bold;
+}
+
+span{
+  cursor: pointer;
+}
